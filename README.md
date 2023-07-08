@@ -3,7 +3,7 @@
 ### polyfills Node.js core modules resolve commonjs
 [![npm version](https://img.shields.io/npm/v/vite-polyfill-commonjs.svg)](https://www.npmjs.com/package/vite-polyfill-commonjs)
 [![Alt](https://img.shields.io/npm/dm/vite-polyfill-commonjs)](https://npmcharts.com/compare/vite-polyfill-commonjs?minimal=true)
-![Alt](https://img.shields.io/github/license/mxios/vite-polyfill-commonjs)
+![Alt](https://img.shields.io/github/license/mioxs/vite-polyfill-commonjs)
 
 ### install
 
