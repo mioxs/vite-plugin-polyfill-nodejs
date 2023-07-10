@@ -22,11 +22,6 @@ export default defineConfig({
   plugins: [
     PolyfillCommonjs(),
   ],
-  build: {
-    commonjsOptions: {
-      include: [/node_modules/],
-    },
-  },
 });
 
 ```
