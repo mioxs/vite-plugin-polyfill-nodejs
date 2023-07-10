@@ -91,10 +91,6 @@ export default function polyfillCommonjs(): Plugin {
             find: 'zlib',
             replacement: require.resolve('browserify-zlib'),
           },
-          {
-            find: 'stompjs',
-            replacement: require.resolve('stompjs/lib/stomp'),
-          },
         ],
       },
     }),
