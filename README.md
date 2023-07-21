@@ -1,14 +1,14 @@
-# vite-plugin-polyfill-node
+# vite-polyfill-nodejs
 
 ### polyfills Node.js core modules resolve commonjs
-[![npm version](https://img.shields.io/npm/v/vite-plugin-polyfill-node.svg)](https://www.npmjs.com/package/vite-plugin-polyfill-node)
-[![Alt](https://img.shields.io/npm/dm/vite-plugin-polyfill-node)](https://npmcharts.com/compare/vite-polyfill-node?minimal=true)
-![Alt](https://img.shields.io/github/license/mioxs/vite-polyfill-node)
+[![npm version](https://img.shields.io/npm/v/vite-polyfill-nodejs.svg)](https://www.npmjs.com/package/vite-polyfill-nodejs)
+[![Alt](https://img.shields.io/npm/dm/vite-polyfill-nodejs)](https://npmcharts.com/compare/vite-polyfill-nodejs?minimal=true)
+![Alt](https://img.shields.io/github/license/mioxs/vite-polyfill-nodejs)
 
 ### install
 
 ```shell
-npm i vite-plugin-polyfill-node -D
+npm i vite-polyfill-nodejs -D
 ```
 
 
@@ -16,7 +16,7 @@ npm i vite-plugin-polyfill-node -D
 
 ```ts
 import { defineConfig } from 'vite';
-import PolyfillNodejs from 'vite-plugin-polyfill-node';
+import PolyfillNodejs from 'vite-polyfill-nodejs';
 
 export default defineConfig({
   plugins: [

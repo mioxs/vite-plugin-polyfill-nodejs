@@ -1,7 +1,7 @@
 {
-  "name": "vite-plugin-polyfill-node",
-  "version": "1.0.3",
-  "description": "vite-plugin-polyfill-node",
+  "name": "vite-polyfill-nodejs",
+  "version": "1.0.1",
+  "description": "vite-polyfill-nodejs",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -37,7 +37,6 @@
     "tty-browserify": "^0.0.1",
     "url": "^0.11.1",
     "util": "^0.12.5",
-    "vite": "^4.0.0",
     "vm-browserify": "^1.1.2"
   },
   "devDependencies": {
@@ -53,7 +52,7 @@
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.2",
     "@types/crypto-js": "^4.1.1",
-    "@types/node": "^20.4.2",
+    "@types/node": "^18.16.19",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
     "eslint": "^8.45.0",

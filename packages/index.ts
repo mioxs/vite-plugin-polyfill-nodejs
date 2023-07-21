@@ -1,13 +1,13 @@
 import type { Plugin } from 'vite';
 
 /**
- * polyfillCommonjs
+ * polyfillNodejs
  * link: https://webpack.js.org/configuration/resolve/#resolvefallback
  * @returns Plugin
  */
-export default function polyfillCommonjs(): Plugin {
+export default function polyfillNodejs(): Plugin {
   return {
-    name: 'polyfill-commonjs',
+    name: 'polyfill-nodejs',
     config: () => ({
       resolve: {
         alias: [
