@@ -71,7 +71,7 @@
   "keywords": [
     "vite",
     "resolve",
-    "commonjs"
+    "nodejs"
   ],
   "repository": {
     "type": "git",
